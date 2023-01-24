@@ -1,0 +1,156 @@
+body {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    font-family: 'Sofia Sanz', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    display: flex;
+}
+.left {
+    height: 100vh;
+    width: 550px;
+    flex-direction: column;
+    display: flex;
+    flex: 1;
+    width: 550px;
+}
+#photo {
+    height: 100vh;
+}
+
+.banner {
+    display: flex;
+    position: relative;
+    bottom: 590px;
+    background-color: rgba(0, 0, 0, 0.433);
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.odin {
+    display: flex;
+    height: 140px;
+}
+h1 {
+    position:static;
+    bottom: 425px;
+    left: 240px;
+    font-size: 80px;
+    color: white;
+}
+figcaption {
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    bottom: 70px;
+    color: white;
+}
+.links1 {
+    color: white;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    justify-content: space-evenly;
+    padding: 80px 0px;
+    background-color: rgb(199,195,203);
+    gap: 16px;
+}
+.blockoftext,
+.thirdblock {
+    padding-left: 40px;
+    
+}
+h2 {
+    font-size: 32px;
+    font-weight: 500;
+}
+form {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 12px;
+}
+.blockoftext {
+    padding-bottom: 13px;
+    padding-right: 40px;
+}
+.form {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0 6px 2px -2px gray;
+}
+fieldset {
+    border: none;
+    justify-content: space-between;
+}
+.firstcolumn,
+.secondcolumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+input {
+    width: 300px;
+
+}
+.thirdblock {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+button {
+    font-size: larger;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 165px;
+    border: none;
+    background-color: #263A40;
+    color: white;
+    padding: 10px;
+    justify-content: center;
+    border-radius: 10px;
+}
+h3 {
+    font-weight: 400;
+}
+
+.login {
+    color: #263A40;
+    font-weight: 700;
+    text-decoration-line: none;
+}
+
+@media (min-width:300px) and (max-width:800px){
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+ 
+    .right {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    #photo {
+        width: 80vw;
+        height: 75vh;
+    }
+    
+}
+@media (min-width:800px) and (max-width:1300px){
+    #photo {
+        width: 55vw;
+    } 
+}

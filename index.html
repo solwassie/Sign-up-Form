@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap" rel="stylesheet">    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="left">
+            <img id="photo" src="imagesandmedia/mourad-saadi.jpeg" alt="A picture of the coast">
+            <figcaption>Photo by <a class="links1" href="https://unsplash.com/@mougrapher?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mourad Saadi</a> on <a class="links1" href="https://unsplash.com/es/images/stock/public-domain?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+            </figcaption>
+
+            <div class="banner">
+                <img class="odin" src="imagesandmedia/odin.png" alt="Logo for The Odin Project">
+                <h1>ODIN</h1>
+            </div>
+            
+        </div>
+        <div class="right">
+
+            <div class="blockoftext">
+                <h2>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started</h2>
+                <h2>You <em>know</em> you want to.</h2>
+            </div>
+        
+            <div class="form">
+                <h2>Let's do this!</h2>
+                <form>
+
+                   
+                    <fieldset class="firstcolumn">
+                        <label for="first_name">FIRST NAME</label>
+                        <input type="text" id="first_name" name="first_name" placeholder="Alice" required>
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" id="email" required>
+                        <label for="password">PASSWORD</label>
+                        <input type="password" name="password" id="password" required>
+
+                    </fieldset>
+
+                    <fieldset class="secondcolumn">
+                        <label for="last_name">LAST NAME</label>
+                        <input type="text" id="last_name" name="last_name" placeholder="Greenwood" required>
+                        <label for="confirm_password">CONFIRM PASSWORD</label>
+                        <input type="password" name="confirm_password" id="confirm_password" required>
+                        <label for="phone_number">PHONE NUMBER</label>
+                        <input type="tel" name="phone_number" id="phone_number" required>
+
+                    </fieldset>
+                </form>
+            </div>
+
+            <div class="thirdblock">
+                <button>Create Account</button>
+                <h3>Already have an account? <a class="login" href="#">Log in</a></h3>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
